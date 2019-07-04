@@ -7,7 +7,8 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: qq.canIUse('button.open-type.getUserInfo')
+    canIUse: qq.canIUse('button.open-type.getUserInfo'),
+    banner: 'https://img-fe.ggwan.com/images/77b775ae63589a-750x354.png'
   },
   //事件处理函数
   bindViewTap: function () {

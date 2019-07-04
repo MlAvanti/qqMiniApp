@@ -1,0 +1,15 @@
+<view
+  class="banner-container"
+  hover-class="none"
+  hover-stop-propagation="false"
+>
+  <image
+    class="banner-image"
+    src="{{imageUrl}}"
+    mode="aspectFit|aspectFill|widthFix"
+    lazy-load="false"
+    binderror=""
+    bindload=""
+  >
+  </image> 
+</view>
